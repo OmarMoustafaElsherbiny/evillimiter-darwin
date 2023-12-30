@@ -156,9 +156,9 @@ def run():
     IO.initialize(args.colorless)
     IO.print(get_main_banner(version))
 
-    if not is_linux():
-        IO.error('run under linux.')
-        return
+    # if not is_linux():
+    #     IO.error('run under linux.')
+    #     return
 
     if not is_privileged():
         IO.error('run as root.')
