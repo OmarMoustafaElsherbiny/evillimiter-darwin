@@ -1,0 +1,10 @@
+{
+    "files.exclude": {
+        "bin": false,
+        "CHANGELOG": true,
+        "CODE_OF_CONDUCT*": true,
+        "CONTRIBUTORS*": true,
+        "LICENSE": true,
+        "README*": true
+    }
+}
