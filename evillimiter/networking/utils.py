@@ -1,5 +1,7 @@
 import re
 import netifaces
+import logging
+logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
 from scapy.all import ARP, sr1 # pylint: disable=no-name-in-module
 
 import evillimiter.console.shell as shell
